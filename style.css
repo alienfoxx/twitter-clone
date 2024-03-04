@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: 'Poppins', 'sans-serif';
+}
+body{
+    background-color: black;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 25px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0 10px 13%;
+    width: 29%;
+    height: 100%;
+    position: fixed;
+}
+.nav-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70%;
+    width: 100%;
+}
+.nav-links a{
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+    padding: 8px 25px 8px 25px;
+    width: fit-content;
+    gap: 15px;
+}
+.nav-links a i{
+    font-size: 2rem;
+}
+.nav-links a:hover,.main-account a:hover{
+    background-color: rgb(47, 51, 54);
+    border-radius: 50px;
+
+}
+.nav-links a:first-child{
+    padding: 8px 8px;
+}
+.teweet-btn{
+    background-color: rgb(29, 155, 240);
+    width: 90%;
+    height: 55px;
+    border-radius: 55px;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 1.7rem;
+    color: white;
+    font-weight: 700;
+    border: none;
+    transition: 0.2s;
+}
+.teweet-btn:hover{
+    background-color: rgb(29, 155, 240,0.9);  
+}
+.main-account{
+    width: 100%;
+    height: 30%;
+    padding-top: 150px;
+}
+.main-account a{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px 8px 15px;
+    margin-right: 10px;
+    align-items: center;
+}
+.tweet-img{
+    width: 48px;
+    height: 38px;
+   border-radius: 50%;
+
+
+}
+.account-detailles{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+    margin-left: 10px;
+    line-height: 20px;
+    font-size: 1.5rem;
+}
